@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Test - Indigo Tree Consulting</title>
+    <style>
+        body { font-family: system-ui, sans-serif; padding: 20px; max-width: 800px; margin: 0 auto; }
+        .image-test { margin: 20px 0; padding: 20px; border: 1px solid #ddd; border-radius: 8px; }
+        img { max-width: 100%; height: auto; display: block; margin: 10px 0; }
+        .success { color: green; }
+        .error { color: red; }
+        h2 { margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <h1>Image Loading Test</h1>
+    <p>Testing all R2-hosted images for Indigo Tree Consulting website:</p>
+
+    <div class="image-test">
+        <h3>1. Barred Owl 11MK</h3>
+        <img src="https://pub-a6c2585c6c994ef3a0db90ff58eedea4.r2.dev/indigotreeconsulting/Barred%20Owl%2011MK.jpg" 
+             alt="Barred Owl" 
+             onload="this.nextElementSibling.className='success'; this.nextElementSibling.textContent='✓ Loaded successfully'"
+             onerror="this.nextElementSibling.className='error'; this.nextElementSibling.textContent='✗ Failed to load'">
+        <p class="loading">Loading...</p>
+    </div>
+
+    <div class="image-test">
+        <h3>2. Brown Thrasher 4.29</h3>
+        <img src="https://pub-a6c2585c6c994ef3a0db90ff58eedea4.r2.dev/indigotreeconsulting/Brown%20Thrasher%204.29.jpg" 
+             alt="Brown Thrasher"
+             onload="this.nextElementSibling.className='success'; this.nextElementSibling.textContent='✓ Loaded successfully'"
+             onerror="this.nextElementSibling.className='error'; this.nextElementSibling.textContent='✗ Failed to load'">
+        <p class="loading">Loading...</p>
+    </div>
+
+    <div class="image-test">
+        <h3>3. Great Crested Flycatcher 4.29</h3>
+        <img src="https://pub-a6c2585c6c994ef3a0db90ff58eedea4.r2.dev/indigotreeconsulting/Great%20Crested%20Flycatcher%204.29.jpg" 
+             alt="Great Crested Flycatcher"
+             onload="this.nextElementSibling.className='success'; this.nextElementSibling.textContent='✓ Loaded successfully'"
+             onerror="this.nextElementSibling.className='error'; this.nextElementSibling.textContent='✗ Failed to load'">
+        <p class="loading">Loading...</p>
+    </div>
+
+    <div class="image-test">
+        <h3>4. Cooper's Hawk 5.2</h3>
+        <img src="https://pub-a6c2585c6c994ef3a0db90ff58eedea4.r2.dev/indigotreeconsulting/Cooper's%20Hawk%205.2.jpg" 
+             alt="Cooper's Hawk"
+             onload="this.nextElementSibling.className='success'; this.nextElementSibling.textContent='✓ Loaded successfully'"
+             onerror="this.nextElementSibling.className='error'; this.nextElementSibling.textContent='✗ Failed to load'">
+        <p class="loading">Loading...</p>
+    </div>
+
+    <div class="image-test">
+        <h3>5. Gray Catbird 4.29</h3>
+        <img src="https://pub-a6c2585c6c994ef3a0db90ff58eedea4.r2.dev/indigotreeconsulting/Gray%20Catbird%204.29.jpg" 
+             alt="Gray Catbird"
+             onload="this.nextElementSibling.className='success'; this.nextElementSibling.textContent='✓ Loaded successfully'"
+             onerror="this.nextElementSibling.className='error'; this.nextElementSibling.textContent='✗ Failed to load'">
+        <p class="loading">Loading...</p>
+    </div>
+
+    <div class="image-test">
+        <h3>6. House Wren 5.2</h3>
+        <img src="https://pub-a6c2585c6c994ef3a0db90ff58eedea4.r2.dev/indigotreeconsulting/House%20Wren%205.2.jpg" 
+             alt="House Wren"
+             onload="this.nextElementSibling.className='success'; this.nextElementSibling.textContent='✓ Loaded successfully'"
+             onerror="this.nextElementSibling.className='error'; this.nextElementSibling.textContent='✗ Failed to load'">
+        <p class="loading">Loading...</p>
+    </div>
+
+    <h2>Summary</h2>
+    <p>If all images show "✓ Loaded successfully" above, the website is ready to deploy!</p>
+</body>
+</html>
