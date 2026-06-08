@@ -850,7 +850,7 @@ section {
     color: var(--color-primary);
     font-size: var(--text-sm);
     text-align: right;
-    margin-top: 4px;
+    margin-top: 8px;
 }
 
 .timeline-content h3 {
